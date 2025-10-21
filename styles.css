@@ -396,7 +396,7 @@ nav .logo a{
 
     /* Hero section - full screen on mobile */
     .hero-section {
-        height: 100vh;
+        height: calc(100vh - var(--nav-height));;
         padding-top: 0;
     }
 
